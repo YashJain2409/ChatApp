@@ -29,7 +29,7 @@ const ChatFeed = (props) => {
               marginRight: isMyMessage ? "18px" : "0px",
               marginLeft: isMyMessage ? "0px" : "68px",
             }}
-            readReciepts
+            // readReciepts
           ></div>
         </div>
       );
