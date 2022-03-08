@@ -4,7 +4,6 @@ import { sendMessage, isTyping } from "react-chat-engine";
 const MessageForm = (props) => {
   const [value, setValue] = useState("");
   const {chatId,creds} = props;
-  console.log(creds);
   const handleUpload = (event) => {
        sendMessage(creds,chatId,{files: event.target.files,text: ''});
   }
@@ -13,6 +12,7 @@ const MessageForm = (props) => {
      const text = value.trim();
      if(text.length > 0)
      sendMessage(creds,chatId,{text});
+
      setValue('');
   };
   const handleChange = (event) => {
