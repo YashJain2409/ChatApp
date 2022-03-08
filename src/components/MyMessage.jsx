@@ -1,5 +1,5 @@
 const MyMessage = ({ message }) => {
-  let doc = new DOMParser().parseFromString(message.text, "text/xml");
+  console.log(message);
   if (message?.attachments?.length > 0) {
     return (
       <img
@@ -20,7 +20,7 @@ const MyMessage = ({ message }) => {
         backgroundColor: "#3b2a50",
       }}
     >
-      {message.text !== "" && doc.firstChild.innerHTML}
+      {message.text}
     </div>
   );
 };
