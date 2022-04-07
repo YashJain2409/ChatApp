@@ -37,6 +37,6 @@ Start the server
 
 
 ## ScreenShots
-<img src = "/public/Readme/chat_app1.png"/>
-<img src = "/public/Readme/chat_app_2.png"/>
-<img src = "/public/Readme/chat_app_3.png"/>
+<img src = "/public/Readme/chat_app1.PNG"/>
+<img src = "/public/Readme/chat_app_2.PNG"/>
+<img src = "/public/Readme/chat_app_3.PNG"/>
